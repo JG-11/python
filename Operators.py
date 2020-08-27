@@ -17,3 +17,13 @@ print(2 > 5)
 print(10 < 20)
 
 print(11 == 1)
+
+"""
+    Operators precedence
+
+    PEMDAS:
+    1. Parentheses
+    2. Exponents
+    3. Multiplication and Division
+    4. Addition and Subtraction
+"""
