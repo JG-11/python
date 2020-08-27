@@ -1,3 +1,4 @@
+import math
 
 def is_prime(number):
     if number < 2:
@@ -6,7 +7,9 @@ def is_prime(number):
     if number == 2:
         return True
 
-    for i in range(3, number):
+    root = math.sqrt(number) # The smallest factor is less than, or is at most equal to, the square root
+
+    for i in range(3, int(root) + 1):
         if number % i == 0:
             return False
     
