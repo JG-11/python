@@ -20,3 +20,16 @@ print('Is {} greater than {}: {}'.format(foo, boo, foo > boo))
 
     Python 2 assumes strings are in ASCII, in the other hand, Python 3 assumes strings are in Unicode.
 """
+
+# Length
+quux = 'quux'
+print('{} length: {}'.format(quux, len(quux)))
+print('The character of {}, in the last position, is: {}'.format(quux, quux[-1]))
+
+# Methods
+print(quux.upper())
+
+print(quux.endswith('u'))
+
+i = quux.find('x')
+print(i)
