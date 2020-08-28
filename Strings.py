@@ -33,3 +33,15 @@ print(quux.endswith('u'))
 
 i = quux.find('x')
 print(i)
+
+# Slices - Substrings
+foo = 'world'
+
+print(foo[::-1]) # Reverse a string
+
+# string[start:end:steps]
+print(foo[0:len(foo):2])
+
+print(foo[1:3])
+
+print(foo[2:])
