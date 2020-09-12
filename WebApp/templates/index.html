@@ -1,0 +1,13 @@
+{% extends "layout/base.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <form action="/hello" method="POST">
+        <input type="text" id="user" name="user">
+        <button type="submit">¡Decir hola!</button>
+    </form>
+    <a href="/">Regresar</a>
+{% endblock %}
